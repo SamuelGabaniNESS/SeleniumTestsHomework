@@ -170,6 +170,6 @@ public class SeleniumTest1 {
 
     @AfterTest
     public void tearDown() {
-        //driver.quit();
+        driver.quit();
     }
 }
